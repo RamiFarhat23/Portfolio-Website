@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1a1a1a; /* Dark background color */
+    overflow: hidden; /* Hide overflow to prevent scroll bars */
+  }
+  
+
+
+  .header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    color: #fff;
+   }
+
+   .about{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    max-width: 700px;
+
+    
+   }
+
+  .container {
+    top: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .wave-emoji {
+    animation: wave 2s infinite;
+    display: inline-block;
+    transform-origin: 70% 70%;
+    margin-left: 5px;
+  }
+  
+  @keyframes wave {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25%, 75% {
+      transform: rotate(-30deg);
+    }
+    50% {
+      transform: rotate(30deg);
+    }
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    display: inline-block;
+    color: #fff; /* Add this line to set text color */
+  }
+  
+  .typing-cursor {
+    border-right: 2px solid #fff; /* Cursor effect */
+    display: inline-block;
+    animation: blink 1s step-end infinite; /* Blinking cursor animation */
+    margin-left: 5px;
+    vertical-align: middle; /* Adjust vertical alignment */
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  section {
+    padding: 50px 0;
+    color: #fff;
+    display: block; /* Allow sections to stack vertically */
+  }
+  
+
+  
+  p {
+    line-height: 1.6;
+    max-width: 700px;
+  }
+
+
+  
+  
+
+  
+  
+
+  
