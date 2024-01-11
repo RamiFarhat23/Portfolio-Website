@@ -13,5 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
     };
   
     const typed = new Typed('#typed-output', options);
-  });
+
+    const scrollDownArrow = document.querySelector('#scroll-down a');
   
+    scrollDownArrow.addEventListener('click', function (event) {
+      event.preventDefault();
+      const experiencesSection = document.getElementById('experiences');
+      experiencesSection.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
