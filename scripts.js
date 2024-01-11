@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
     scrollDownArrow.addEventListener('click', function (event) {
       event.preventDefault();
-      const experiencesSection = document.getElementById('experiences');
+      const experiencesSection = document.querySelector('#experiences h2');
       experiencesSection.scrollIntoView({ behavior: 'smooth' });
     });
   });
